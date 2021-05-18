@@ -1,0 +1,9 @@
+@font-face {
+    font-family: Shlop;
+    src: url('../fonts/shlop.ttf');
+}
+
+@font-face {
+    font-family: ShlopW;
+    src: url('../fonts/shlop.woff2');
+}

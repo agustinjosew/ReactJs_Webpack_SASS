@@ -1,0 +1,114 @@
+*
+    margin : 0
+    padding: 0
+    box-sizing: border-box
+
+header
+    background: url('./images/bg2.jpg')
+    background-repeat: no-repeat
+    height: 40vh
+    background-size: cover
+    background-position: center
+
+
+header:before
+    content: ""
+    width: 100%
+    height: 40%
+    position: absolute
+    top: 0px
+    left: 0px
+    background-image: linear-gradient( 180deg, #1f2937,#495f7e,#8000e869 )
+    opacity: 0.8
+
+.container
+    width:  80%
+    margin: auto
+    height: 100%
+
+.content
+    width: 100%
+    height: 100%
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+    position: relative
+
+.title
+    padding: 10px
+    color: #82bf45
+    font-size: 5rem
+    font-family: Shlop
+
+.text
+    color:#75e0e8
+    font-size: 34px
+    font-family: Shlop
+
+
+.personajes
+    margin-top: 20px
+    width: 100%
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+
+.box
+    width: 30%
+    background-color: #b582e8a4
+    margin: 10px
+    border-radius: 4px
+    box-shadow: inset 0 0 60px #06f80e95
+    display: flex
+    img
+        width: 50%
+        margin: 5px
+        border-radius: 10px
+        flex-direction: column
+        justify-content: center
+    .personaje
+        width: 100%
+        margin: 10px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        font-size: 12px
+        text-align: center
+    .nombre
+        font-family: Shlop
+        font-size: 25px
+        color: #262525
+    .especie
+        text-align: center
+        padding: 5px
+        background-color:  hsla(10, 33%, 25%, .55)
+        color: white
+        border-radius: 5px
+        text-transform: uppercase
+        font-size: 12px
+        margin: 3px 0px
+    .estado
+        padding: 5px
+        background-color:  #0033ff74
+        color: #41132a
+        border-radius: 3px
+        text-transform: uppercase
+        font-size: 9px
+        margin: 3px 0px
+    .genero
+        padding: 5px
+        background-color:  #ea00ff74
+        color: #1c1c31
+        border-radius: 3px
+        text-transform: uppercase
+        font-size: 9px
+        margin: 3px 0px
+    .ubicacion
+        padding: 5px
+        background-color:  #ffd90074
+        color: #400040
+        border-radius: 3px
+        text-transform: uppercase
+        font-size: 9px
+        margin: 3px 0px
